@@ -1,4 +1,4 @@
-# Single Instance ALB Configuration
+# ALB with Autoscaling Configuration
 
 data "aws_ami" "app_ami" {
   most_recent = true
