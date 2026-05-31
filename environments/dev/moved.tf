@@ -1,5 +1,6 @@
 # Just to let terraform know the moved modules
-# file can be deleted after a plan later
+# this file can be deleted after a terraform plan later
+# the terraform plan should typically show no changes in configuration
 
 moved {
     from = module.blog_vpc
